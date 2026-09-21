@@ -5,8 +5,8 @@ Este arquivo e gerado automaticamente pela pipeline.
 
 ## Alunos
 
-- Aluno1
-- Aluno2
+- Gustavo Rieg
+- Gustavo Fantoni do Rosário
 
 ## Resultado do Docker Build
 
