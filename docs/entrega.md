@@ -41,7 +41,7 @@ As telas locais estão em [evidencias/aplicacao](evidencias/aplicacao):
 
 ## Estado da entrega prática
 
-Os cinco gates de segurança foram exercitados individualmente e as alterações temporárias usadas para provocar as falhas foram removidas da branch final. A base segura do código é o commit `3d649ad`; o commit atual da branch, com a documentação organizada, é `6e3d616`, ambos de Gustavo Fantoni.
+Os cinco gates de segurança foram exercitados individualmente e as alterações temporárias usadas para provocar as falhas foram removidas da branch final. A base segura do código é o commit `3d649ad`, e a documentação organizada foi adicionada em commits posteriores, todos assinados por Gustavo Fantoni.
 
 O print original do `secret-scan` não foi versionado porque contém o valor de demonstração exibido pelo Gitleaks. A atividade orienta a não copiar esse valor para nenhum arquivo do repositório; por isso, o arquivo `erro 1.png` deve ser enviado como anexo separado junto com a entrega.
 
