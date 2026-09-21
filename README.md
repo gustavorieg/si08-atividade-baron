@@ -12,7 +12,7 @@ Este arquivo e gerado automaticamente pela pipeline.
 
 | Item | Valor |
 |---|---|
-| Status | ⚪ Pulado (algum gate de seguranca falhou) |
-| Commit | `21dc3b3dce22770de1abfb33fe6dd527f212b72a` |
-| Execucao | [35548451103](https://github.com/sbaron81/unifebe-si08-devsecops/actions/runs/35548451103) |
-| Data | 21/09/2026 00:40 UTC |
+| Status | 🔴 Falha |
+| Commit | `a63060ccf0699f774f2abbb81c0f88a792da6fa5` |
+| Execucao | [35668380529](https://github.com/gustavorieg/si08-atividade-baron/actions/runs/35668380529) |
+| Data | 21/09/2026 23:39 UTC |
