@@ -18,7 +18,7 @@ As imagens estão organizadas em [evidencias/actions](evidencias/actions). Os li
 
 | Ordem | Gate | Evidência | Execução/job |
 |---:|---|---|---|
-| 1 | Secret scan | Print original `erro 1.png` deve ser anexado separadamente, fora do Git | [Gitleaks](https://github.com/gustavorieg/si08-atividade-baron/actions/runs/35665205400/job/106549290285) |
+| 1 | Secret scan | [01-secret-scan-falha.png](evidencias/actions/01-secret-scan-falha.png) | [Gitleaks](https://github.com/gustavorieg/si08-atividade-baron/actions/runs/35665205400/job/106549290285) |
 | 2 | Unit tests | [02-unit-tests-falha.png](evidencias/actions/02-unit-tests-falha.png) | [Maven](https://github.com/gustavorieg/si08-atividade-baron/actions/runs/35665335418/job/106549764314) |
 | 3 | SAST | [03-sast-falha.png](evidencias/actions/03-sast-falha.png) | [Semgrep](https://github.com/gustavorieg/si08-atividade-baron/actions/runs/35665443171/job/106550219504) |
 | 4 | SCA | [04-sca-falha.png](evidencias/actions/04-sca-falha.png) | [Trivy](https://github.com/gustavorieg/si08-atividade-baron/actions/runs/35665688332/job/106551073582) |
@@ -43,6 +43,6 @@ As telas locais estão em [evidencias/aplicacao](evidencias/aplicacao):
 
 Os cinco gates de segurança foram exercitados individualmente e as alterações temporárias usadas para provocar as falhas foram removidas da branch final. A base segura do código é o commit `3d649ad`, e a documentação organizada foi adicionada em commits posteriores, todos assinados por Gustavo Fantoni.
 
-O print original do `secret-scan` não foi versionado porque contém o valor de demonstração exibido pelo Gitleaks. A atividade orienta a não copiar esse valor para nenhum arquivo do repositório; por isso, o arquivo `erro 1.png` deve ser enviado como anexo separado junto com a entrega.
+O print do `secret-scan` foi incluído na pasta de evidências conforme orientação do professor. O valor exibido é apenas uma chave fictícia usada na demonstração; não corresponde a uma credencial de produção.
 
 Na execução da PR, o job `build-and-push` aparece como pulado porque o workflow publica a imagem somente em um `push` para a branch `main`. Para concluir os itens de publicação da atividade, é necessário fazer o merge da PR, capturar a execução no `main` com `Build e Push da Imagem (GHCR)` verde e anexar também o print do pacote publicado em `Packages`.
